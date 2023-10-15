@@ -2,7 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="primary">#FF4A1C</color>
+    <color name="primary">#FD531D</color>
+    <color name="primary_button">#A20808</color>
     <color name="second">#FAD720</color>
     <color name="purple">#A709B8</color>
 </resources>
