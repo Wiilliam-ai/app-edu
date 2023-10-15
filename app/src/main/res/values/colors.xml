@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="primary">#FD531D</color>
     <color name="primary_button">#A20808</color>
+    <color name="color_sec_text">#757170</color>
     <color name="second">#FAD720</color>
     <color name="purple">#A709B8</color>
 </resources>

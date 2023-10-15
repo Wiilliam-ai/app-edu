@@ -13,6 +13,18 @@
         android:theme="@style/Theme.EduApp"
         tools:targetApi="31">
         <activity
+            android:name=".views.auth.RegisterViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.others.MenuViewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".principal.MenuViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".views.auth.LoginViewActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

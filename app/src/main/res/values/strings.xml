@@ -5,4 +5,6 @@
     <string name="title_welcome">Somos tu guia, donde el conocimiento no tiene limites</string>
     <string name="button_register">Registrar</string>
     <string name="button_login">Iniciar Sesion</string>
+    <string name="title_view_login">Iniciar</string>
+    <string name="title_view_register">Registrar</string>
 </resources>
