@@ -7,4 +7,11 @@
     <string name="button_login">Iniciar Sesion</string>
     <string name="title_view_login">Iniciar</string>
     <string name="title_view_register">Registrar</string>
+    <string name="label_email">Correo</string>
+    <string name="placeholder_email">Ingresar Correo</string>
+    <string name="label_password">Contraseña</string>
+    <string name="placeholder_password">Ingresar contraseña</string>
+    <string name="btn_login_view">Iniciar Sesion</string>
+    <string name="btn_forgot_view_login">¿OLVIDO SU CONTRASEÑA?</string>
+    <string name="btn_register_view_login">REGISTRARSE</string>
 </resources>

@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="Correo"
+        android:text="@string/label_email"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,7 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorHint="@color/primary"
-            android:hint="Ingresar Correo" />
+            android:hint="@string/placeholder_email" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
@@ -53,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="10dp"
-        android:text="Contraseña"
+        android:text="@string/label_password"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout"
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:textColorHint="@color/primary"
             android:inputType="textPassword"
-            android:hint="Ingresar contraseña" />
+            android:hint="@string/placeholder_password" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginVertical="20dp"
         android:backgroundTint="@color/primary"
-        android:text="Iniciar Sesion"
+        android:text="@string/btn_login_view"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayoutA"
@@ -97,7 +97,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="25dp"
-        android:text="¿OLVIDO SU CONTRASEÑA?"
+        android:text="@string/btn_forgot_view_login"
         android:textColor="@color/color_sec_text"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -112,7 +112,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="25dp"
-        android:text="REGISTRARSE"
+        android:text="@string/btn_register_view_login"
         android:textAlignment="center"
         android:textColor="@color/primary"
         android:textSize="18sp"
