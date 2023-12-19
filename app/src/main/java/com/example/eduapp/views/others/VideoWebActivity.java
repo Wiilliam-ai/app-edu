@@ -1,4 +1,4 @@
-package com.example.eduapp.principal;
+package com.example.eduapp.views.others;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.eduapp.R;
 
-public class MenuViewActivity extends AppCompatActivity {
+public class VideoWebActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_view);
+        setContentView(R.layout.activity_video_web);
     }
 }

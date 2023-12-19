@@ -20,17 +20,42 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="@color/primary"
+        app:hintTextColor="@color/primary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtInpFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresar su nombre"
+            android:textColorHint="@color/primary" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
         android:text="Correo"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout8" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
@@ -43,8 +68,10 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtInpEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
             android:textColorHint="@color/primary"
             android:hint="Ingresar Correo" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -71,6 +98,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtInpPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorHint="@color/primary"
@@ -83,7 +111,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="10dp"
-        android:text="Nombre"
+        android:text="Repetir"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textInputLayoutA"
@@ -100,20 +128,22 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtInpPass2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Ingresar en nombre"
+            android:inputType="textPassword"
+            android:hint="Repetir contraseña"
             android:textColorHint="@color/primary" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnRegisterApp"
         style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="20dp"
         android:backgroundTint="@color/primary"
-        android:text="Siguiente"
+        android:text="REGISTRAR"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textInputLayoutB"
@@ -131,8 +161,8 @@
         android:textSize="18sp"
         android:textStyle="bold"
         android:textAlignment="center"
-        app:layout_constraintEnd_toEndOf="@+id/button"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintEnd_toEndOf="@+id/btnRegisterApp"
+        app:layout_constraintStart_toStartOf="@+id/btnRegisterApp"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegisterApp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
